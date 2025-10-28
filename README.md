@@ -1,16 +1,142 @@
-# React + Vite
+# Task Buddy 🎯  
+**Your Personal Productivity Partner**  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Task Buddy is a **React-based Task Management Application** designed to help you stay productive, organized, and on track — whether you're managing personal goals or professional tasks. 💪✨  
 
-Currently, two official plugins are available:
+---  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✅ **Core Functionalities**
+- **Add, Delete & Complete Tasks:**  
+  Create new tasks, mark them as complete, or remove them instantly.  
+- **Persistent Storage (localStorage):**  
+  Your tasks remain saved even after refreshing the page.  
+- **Responsive Design:**  
+  Works smoothly on **desktops, tablets, and mobiles**.  
+- **Clear All Tasks:**  
+  Remove all tasks at once with a single click.  
+- **Dynamic Progress Tracker:**  
+  See your productivity in action with a live progress bar.  
+- **Smart Validation:**  
+  Prevents adding empty or duplicate tasks.  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧩 Additional Features  
 
-## Expanding the ESLint configuration
+- 🗂️ **Task Filtering** — Organize tasks based on categories and priority levels.  
+- 🕒 **Task History** — View completed tasks and choose to restore or permanently delete them.  
+- 💾 **Local Storage Integration** — Ensures your data is persistent and private.  
+- 🌈 **Modern UI Design** — Soothing gradient theme with hover effects and dynamic animations.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack  
+
+| Technology | Description |
+|-------------|-------------|
+| ⚛️ **React.js** | Frontend Framework |
+| 💾 **localStorage** | Data Persistence |
+| 🧭 **React Hooks (useState, useEffect)** | State Management |
+| 🧑‍💻 **JavaScript (ES6+)** | Logic & Functionality |
+| 🎨 **CSS3** | Styling & Responsive Design |
+| 🌐 **GitHub Pages / Netlify** | Deployment Platform |
+
+---
+
+## 📂 Project Structure  
+```
+TaskBuddy/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── TaskForm.jsx
+│ │ ├── TaskList.jsx
+│ │ └── ProgressTracker.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ └── Style.css
+├── package.json
+└── README.md
+```
+---
+
+## 🧠 How It Works  
+
+1. **Enter a Task** ✍️  
+   Type your task in the input box and choose its **priority** and **category**.  
+2. **Manage Tasks Easily** 🗑️  
+   Mark them as *Complete*, *Undo*, or *Delete* when needed.  
+3. **Track Progress** 📊  
+   The progress bar updates automatically based on your completed tasks.  
+4. **Persistent Storage** 💾  
+   Tasks are saved in your browser's local storage even after refreshing.  
+5. **Clear All** 🧹  
+   Reset your list anytime to start fresh!  
+
+---
+
+## 🖼️ Screenshots  
+
+### 🏠 Home Interface  
+![Home Screenshot](./Screenshot_1.png)
+
+### 🧾 Task Management View  
+![Task List Screenshot](./Screenshot_2.png)
+
+### 📈 Progress Tracking  
+![Progress Screenshot](./Screenshot_3.png)
+
+---
+
+## ⚙️ Requirements  
+
+| Requirement | Description |
+|--------------|-------------|
+| 💻 **Frontend Framework** | React.js |
+| 🧩 **Data Storage** | localStorage |
+| 🧭 **Version Control** | Git + GitHub |
+| 🚀 **Deployment** | GitHub Pages or Netlify |
+| 🧰 **Tools** | VS Code, Chrome, Node.js, npm |
+
+---
+
+## 🚀 Installation & Setup  
+```
+Follow these steps to run the project locally 👇  
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/TaskBuddy.git
+
+# Navigate into the project folder
+cd TaskBuddy
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+---
+
+## MIT License 
+
+Copyright (c) 2025 Tania Tabassum  
+
+Permission is hereby granted, free of charge, to any person obtaining a copy  
+of this software and associated documentation files (the "Software"), to deal  
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
+furnished to do so, subject to the following conditions:  
+
+The above copyright notice and this permission notice shall be included in all  
+copies or substantial portions of the Software.  
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
+SOFTWARE.

@@ -19,9 +19,11 @@ export default function TaskForm({addTask}) {
   return (
     <form onSubmit={handlesubmit} className="task-form">
         <div id="inp">
-            <input type="text" placeholder="Enter the task" value={task} onChange={(e) => setTask(e.target.value)}/>
+            <input type="text" placeholder="Enter the task..." 
+            value={task} 
+            onChange={(e) => setTask(e.target.value)}/>
             <button type="submit">Add Task</button>
-            {/* <h1>{task} {priority} {category}</h1> */}
+
         </div>
 
         <div id="btns">
@@ -30,9 +32,7 @@ export default function TaskForm({addTask}) {
                 <option value="medium">Medium</option>
                 <option value="low">Low</option>
             </select>
-        </div>
-
-        <div>
+            
             <select value={category} onChange={(e) => setCategory(e.target.value)}>
                 <option value="general">General</option>
                 <option value="work">Work</option>

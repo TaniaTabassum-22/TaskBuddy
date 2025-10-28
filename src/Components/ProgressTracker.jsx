@@ -1,8 +1,8 @@
-export default function ProgressTracker(tasks) {
+export default function ProgressTracker({tasks}) {
 
   const completedTasks = tasks.filter((t) => t.completed).length;
   const totaltasks = tasks.length;
-  const percentage = totaltasks == 0 ? 0: (completedTasks/totaltasks) * 100;
+  const percentage = totaltasks == 0 ? 0 : (completedTasks/totaltasks) * 100;
 
   return (
     <div className="progress-tracker">

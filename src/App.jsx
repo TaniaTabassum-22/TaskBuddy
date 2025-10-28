@@ -30,22 +30,35 @@ export default function App() {
   }
 
   return (
-    <div className="App">
-      <header>
-        <h1 className="title">Task Buddy&#x1F3AF;</h1>
-        <p className="tagline">Your Personal Productivity Partner&#x1F91D;</p>
-      </header>
+    <>
+      <div className="App">
+        <header>
+          <h1 className="title">Task Buddy🎯</h1>
+          <p className="tagline">Your Personal Productivity Partner🤝</p>
+        </header>
 
-      <TaskForm addTask = {addTask}/>
-      <TaskList tasks = {tasks} updateTask = {updateTask} deleteTask = {deleteTask}/>
-      <ProgressTracker tasks = {tasks}/>
+        <TaskForm addTask={addTask} />
+        <TaskList
+          tasks={tasks}
+          updateTask={updateTask}
+          deleteTask={deleteTask}
+        />
+        <ProgressTracker tasks={tasks} />
 
-      {tasks.length > 0 && (<button onClick={clearTasks} className="clear-btn">Clear all tasks</button>)}
+        {/* Clear button inside a container aligned left */}
+        {tasks.length > 0 && (
+          <div className="clear-btn-container">
+            <button onClick={clearTasks} className="clear-btn">
+              Clear all Tasks
+            </button>
+          </div>
+        )}
+      </div>
 
+      {/* Footer outside of .App container */}
       <footer>
-        <p>© 2025 Task Buddy. &#x1F4CB;Plan. &#x1F4DD;Track. &#x2705;Achieve. &#x1F680;</p>
+        © 2025 Task Buddy || 📋 Plan. 📊 Track. ✅ Achieve. 🚀
       </footer>
-
-    </div>
-  )
+    </>
+  );
 }
