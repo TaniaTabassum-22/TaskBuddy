@@ -104,19 +104,23 @@ TaskBuddy/
 ```
 Follow these steps to run the project locally 👇  
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/TaskBuddy.git
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/TaskBuddy.git
+   ```
 
-# Navigate into the project folder
-cd TaskBuddy
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
-```
+2. Navigate into the project folder
+   ```bash
+   cd TaskBuddy
+   ```
+3. Install dependencies
+   ```bash
+   npm install
+   ```
+4. Start the development server
+   ```bash
+   npm start
+   ```
 ---
 
 ##  License
