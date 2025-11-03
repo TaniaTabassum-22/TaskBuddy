@@ -101,7 +101,7 @@ TaskBuddy/
 ---
 
 ## 🚀 Installation & Setup  
-```
+
 Follow these steps to run the project locally 👇  
 
 1. Clone the repository
